@@ -1,0 +1,1 @@
+worker: python tesBot2.py

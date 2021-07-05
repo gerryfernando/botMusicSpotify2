@@ -1,0 +1,4416 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/asus/ontologies/2021/2/untitled-ontology-12"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/asus/ontologies/2021/2/untitled-ontology-12">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Acousticness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Akustik"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Album"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BPM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Berisik"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cepat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Danceability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Duration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kurang_Populer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lama"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lambat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Meriah"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Music"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Popularity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Populer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sebentar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sedang"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Singer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tenang"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tidak_Akustik"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tidak_Meriah"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Title"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Year"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hiphop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mellow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rock"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Is_Year_From"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Made_In"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#durationFrom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDuration"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGenre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#haveElement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isElementOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPopuler"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performer"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Year"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasGenre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#...Ready_For_It?_-_BloodPop®_Remix"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1+1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#24K_Magic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2U_(feat._Justin_Bieber)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#43776"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#7_Years"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A_L_I_E_N_S"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A_Little_Party_Never_Killed_Nobody_(All_We_Got)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A_Sky_Full_of_Stars"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A_Thousand_Years"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adore_You"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ain&apos;t_Your_Mama"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alejandro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#All_About_That_Bass"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#All_Around_The_World_(La_La_La)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#All_I_Ask"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#All_The_Right_Moves"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#All_We_Know"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#All_of_Me"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#American_Oxygen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anaconda"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Angel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Animal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Animals"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Antisocial_(with_Travis_Scott)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anything_Could_Happen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anywhere"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Applause"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Atlas_-_From_“The_Hunger_Games:_Catching_Fire”_Soundtrack"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Attention"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BO$$"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BURNITUP!"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Baby"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Baby_Don&apos;t_Lie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bad_At_Love"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bad_Liar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bad_Romance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bang_Bang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bang_My_Head_(feat._Sia_&amp;_Fetty_Wap)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Beautiful_Birds_(feat._Birdy)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Beautiful_People_(feat._Khalid)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Beauty_And_A_Beat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Been_You"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Behind_Your_Back"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Beneath_Your_Beautiful"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Best_Song_Ever"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Best_Thing_I_Never_Had"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Birthday"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blah_Blah_Blah_(feat._3OH!3)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blame"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bloodstream"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blow"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blow_Me_(One_Last_Kiss)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blown"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blurred_Lines"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bodak_Yellow"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Body_Moves"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Body_Say"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bon_appétit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Boom_Boom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Boom_Clap_-_From_the_Motion_Picture_Das_Schicksal_ist_ein_mieser_Verräter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Booty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Born_This_Way"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bound_To_You_-_Burlesque_Original_Motion_Picture_Soundtrack"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Boyfriend"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Brave"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Break_Free"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Break_Your_Heart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Broken_Arrows"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Burn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CAN&apos;T_STOP_THE_FEELING!_(Original_Song_from_DreamWorks_Animation&apos;s_TROLLS)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cake_By_The_Ocean"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#California_Gurls"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Call_Me_Maybe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Call_You_Mine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Came_Here_for_Love"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Can&apos;t_Hold_Us_(feat._Ray_Dalton)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Can&apos;t_Remember_to_Forget_You_(feat._Rihanna)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cannonball"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Capital_Letters"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Castle_Walls_(feat._Christina_Aguilera)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Celebrate_(From_the_Original_Motion_Picture_Penguins_of_Madagascar)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chained_To_The_Rhythm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Champagne_Problems"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chandelier"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Change"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cheap_Thrills"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cheers_(Drink_To_That)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chun-Li"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Clarity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Close"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Closer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Clown"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Club_Can&apos;t_Handle_Me_(feat._David_Guetta)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cold_(feat._Future)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cold_Water_(feat._Justin_Bieber_&amp;_MØ)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Come_&amp;_Get_It"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Come_Get_It_Bae"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Company"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Con_Calma_-_Remix"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Confident"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cool_Girl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cooler_Than_Me_-_Single_Mix"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Crazy_Kids_(feat._will.i.am)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cross_Me_(feat._Chance_the_Rapper_&amp;_PnB_Rock)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cruel_(feat._ZAYN)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Crying_in_the_Club"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cut_To_The_Feeling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DJ_Got_Us_Fallin&apos;_In_Love_(feat._Pitbull)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dance_Again"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dangerous"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dangerous_Woman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dark_Horse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Daylight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dear_Future_Husband"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Desire"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Despacito_-_Remix"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Diamonds"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Die_Young"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Do_You_Wanna_Come_Over?"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Doesn&apos;t_Mean_Anything"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dog_Days_Are_Over"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Domino"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Don&apos;t"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Don&apos;t_Be_A_Fool"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Don&apos;t_Be_so_Hard_on_Yourself"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Don&apos;t_Call_Me_Up"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Don&apos;t_Let_Me_Down"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Don&apos;t_Stop_the_Party_(feat._TJR)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Don&apos;t_You_Worry_Child_-_Radio_Edit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Downtown_(feat._Melle_Mel,_Grandmaster_Caz,_Kool_Moe_Dee_&amp;_Eric_Nally)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Drip_(feat._Migos)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Drunk_in_Love"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dusk_Till_Dawn_-_Radio_Edit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dynamite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#E.T."/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Earned_It_(Fifty_Shades_Of_Grey)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Easy_Love"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eenie_Meenie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Elastic_Heart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Electric_Love"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Electricity_(with_Dua_Lipa)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Empire_State_of_Mind_(Part_II)_Broken_Down"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#End_Game"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Everybody_Talks"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Familiar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fancy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Feel_The_Light_-_From_The_Home_Soundtrack"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Feel_This_Moment_(feat._Christina_Aguilera)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ferrari"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Filthy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Final_Song"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Finally_Found_You"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Find_U_Again_(feat._Camila_Cabello)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Finesse_-_Remix;_feat._Cardi_B"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fireball_(feat._John_Ryan)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Firework"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#First_Time"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Focus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Foolish_Games"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#For_You_(With_Rita_Ora)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FourFiveSeconds"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Freak"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Free_Me"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Friends_(with_BloodPop®)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#G.U.Y."/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Genie_In_a_Bottle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Get_Low_(with_Liam_Payne)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Get_Lucky_(feat._Pharrell_Williams_&amp;_Nile_Rodgers)_-_Radio_Edit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ghosttown"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Giant_(with_Rag&apos;n&apos;Bone_Man)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Girl_On_Fire_(feat._Nicki_Minaj)_-_Inferno_Version"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Girls_(feat._Cardi_B,_Bebe_Rexha_&amp;_Charli_XCX)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Girls_Like_You_(feat._Cardi_B)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Give_It_2_U"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Give_Me_Everything"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Glad_You_Came"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Good_Life"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Good_Time"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Good_as_Hell_(feat._Ariana_Grande)_-_Remix"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gorilla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Greenlight_(feat._Flo_Rida_&amp;_LunchMoney_Lewis)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Grenade"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hall_of_Fame"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hands_To_Myself"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Happier"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Happy_-_From_Despicable_Me_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Havana_(feat._Young_Thug)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Heart_Attack"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Heartbeat_Song"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Heartbreaker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hello"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Here"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Heroes_(we_could_be)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hey,_Soul_Sister"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hey_Brother"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hey_Mama_(feat._Nicki_Minaj,_Bebe_Rexha_&amp;_Afrojack)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Higher"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Higher_Love"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Him_&amp;_I_(with_Halsey)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hold_It_Against_Me"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hold_On,_We&apos;re_Going_Home"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#How_Deep_Is_Your_Love"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#How_Do_You_Sleep?"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#How_Far_I&apos;ll_Go_-_From_Moana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#How_Ya_Doin&apos;?_(feat._Missy_Elliott)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hurts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#I&apos;ll_Show_You"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#I&apos;m_Into_You"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#I&apos;m_Not_The_Only_One"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#I&apos;m_the_One_(feat._Justin_Bieber,_Quavo,_Chance_the_Rapper_&amp;_Lil_Wayne)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IDGAF"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#I_Don&apos;t_Care_(with_Justin_Bieber)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#I_Don’t_Wanna_Live_Forever_(Fifty_Shades_Darker)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#I_Feel_It_Coming"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#I_Got_You"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#I_Knew_You_Were_Trouble."/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#I_Know_What_You_Did_Last_Summer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#I_Like_It"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#I_Lived"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#I_Love_It_(feat._Charli_XCX)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#I_Luh_Ya_Papi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#I_Really_Like_You"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#I_Took_A_Pill_In_Ibiza_-_Seeb_Remix"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#I_Wanna_Go"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#I_Want_You_To_Know"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#If_I_Had_You"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#If_I_Lose_Myself_-_Alesso_vs_OneRepublic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Imma_Be"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Impossible"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#In_My_Blood"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#In_the_Name_of_Love"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Influence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#International_Love"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Into_You"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Invading_My_Mind"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Invitation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#It&apos;s_On_Again_-_Main_Soundtrack"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#It_Ain&apos;t_Me_(with_Selena_Gomez)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#It_Will_Rain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jar_of_Hearts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jealous_-_Remix"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Judas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Just_Can’t_Get_Enough"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Just_Give_Me_a_Reason_(feat._Nate_Ruess)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Just_Like_Fire_(From_the_Original_Motion_Picture_Alice_Through_The_Looking_Glass)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Just_the_Way_You_Are"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Keeping_Your_Head_Up"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kill_Em_With_Kindness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kills_You_Slowly"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kiss_You"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kissing_Strangers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kissing_Strangers_-_Remix"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#L.A.LOVE_(la_la)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LIKE_I_WOULD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#La_La_La_(Brasil_2014)_(feat._Carlinhos_Brown)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Last_Friday_Night_(T.G.I.F.)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Latch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lay_It_All_on_Me"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Legendary_Lovers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lemon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Let_Her_Go"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Let_It_Go_-_From_Frozen_/_Single_Version"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Let_Me"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Let_Me_Be_Your_Lover"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Let_Me_Go_(with_Alesso,_Florida_Georgia_Line_&amp;_watt)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Let_Me_Love_You"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Let_Me_Love_You_(Until_You_Learn_To_Love_Yourself)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Light_It_Up_(feat._Nyla_&amp;_Fuse_ODG)_[Remix]"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lights_-_Single_Version"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Like_A_G6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Like_I&apos;m_Gonna_Lose_You_(feat._John_Legend)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lips_Are_Movin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Little_Lies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Live_It_Up"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Living_For_Love"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Loca"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Locked_Out_of_Heaven"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Look_What_You_Made_Me_Do"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lose_You_To_Love_Me"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lose_Yourself_to_Dance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Love"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Love_Incredible_(feat._Camila_Cabello)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Love_Me_Again"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Love_Me_Harder"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Love_Me_Like_You"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Love_Me_Like_You_Do_-_From_Fifty_Shades_Of_Grey"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Love_Never_Felt_So_Good"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Love_On_The_Brain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Love_On_Top"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Love_Runs_Out"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Love_Somebody"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Love_The_Way_You_Lie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Love_You_Like_A_Love_Song"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Love_Yourself"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lust_for_Life_(with_The_Weeknd)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MOVE_TO_MIAMI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Made_In_The_USA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Make_Me..._(feat._G-Eazy)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Make_Me_Like_You"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Malibu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mama"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Maps"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mark_My_Words"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Marry_The_Night"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Marry_You"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Me,_Myself_&amp;_I"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Me_Too"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Meet_Me_Halfway"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Memories"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mercy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Messin&apos;_Around"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mi_Gente_(feat._Beyoncé)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Million_Reasons"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Million_Years_Ago"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mirrors_-_Radio_Edit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Misery"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Miss_You_(with_Major_Lazer_&amp;_Tory_Lanez)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mmm_Yeah_(feat._Pitbull)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moment_4_Life_-_Album_Version_(Edited)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Monster"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Move"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moves_Like_Jagger_-_Studio_Recording_From_The_Voice_Performance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mr._Put_It_Down"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Muny_-_Album_Version_(Edited)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#My_First_Kiss_-_feat._Ke$ha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#My_House"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#My_My_My!"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#My_Way"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NO"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Naturally"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Needed_Me"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nervous"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Never_Be_the_Same_-_Radio_Edit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Never_Forget_You"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#New_Rules"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Next_To_Me"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Night_Changes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#No_Brainer_(feat._Justin_Bieber,_Chance_the_Rapper_&amp;_Quavo)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#No_Guidance_(feat._Drake)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#No_Vacancy_(with_Sebastián_Yatra)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Not_About_Angels"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Not_Myself_Tonight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Not_a_Bad_Thing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nothing_Breaks_Like_a_Heart_(feat._Miley_Cyrus)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OK_-_Spotify_Version"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OMG_(feat._will.i.am)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#On_My_Mind"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#On_The_Floor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#One_Call_Away_(feat._Tyga)_-_Remix"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#One_Kiss_(with_Dua_Lipa)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#One_More_Night"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Only_Girl_(In_The_World)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Only_Human"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Only_Love_Can_Hurt_Like_This"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ooh_La_La_(from_The_Smurfs_2)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Out_Of_The_Woods"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Outta_Nowhere_(feat._Danny_Mercer)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Overdose"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PILLOWTALK"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Papi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paradise"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paris"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Part_Of_Me"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Partition"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Party_Rock_Anthem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Payphone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#People_Like_Us"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pep_Rally"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Perfect"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Perfect_Duet_(Ed_Sheeran_&amp;_Beyoncé)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Perfect_Illusion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Picky_-_Remix"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Play_Hard_(feat._Ne-Yo_&amp;_Akon)_-_New_Edit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Please_Don&apos;t_Go"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pom_Poms"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pompeii"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Prayer_in_C_-_Robin_Schulz_Radio_Edit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Praying"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Price_Tag"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Problem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Raise_Your_Glass"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rather_Be_(feat._Jess_Glynne)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Reality_(feat._Janieck_Devy)_-_Radio_Edit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Reality_-_Radio_Edit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Really_Don&apos;t_Care"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Reggaetón_Lento_(Remix)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Remember_I_Told_You"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rich_Boy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rich_Love_(with_Seeb)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Right_Now_-_Dyro_Radio_Edit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rise"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Roar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rock_N_Roll"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rock_That_Body"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rockabye_(feat._Sean_Paul_&amp;_Anne-Marie)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rolling_in_the_Deep"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Roses"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rude"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Run_Away_With_Me"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Run_Run_Run"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Run_the_World_(Girls)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Runnin_(Lose_It_All)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#S&amp;M_Remix"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Same_Old_Love"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Say_Something"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Scars_To_Your_Beautiful"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Secrets"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#See_You_Again_(feat._Charlie_Puth)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Send_My_Love_(To_Your_New_Lover)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Set_Fire_to_the_Rain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sexy_And_I_Know_It"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sexy_Bitch_(feat._Akon)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Señorita"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shake_It_Off"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shallow_-_Radio_Edit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shape_of_You"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#She_Looks_So_Perfect"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sheezus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shot_Me_Down_(feat._Skylar_Grey)_-_Radio_Edit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shout_Out_to_My_Ex"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sick_Boy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Side_To_Side"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sign_of_the_Times"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Silence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Slide_(feat._Frank_Ocean_&amp;_Migos)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Slow_Hands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Some_Nights"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Someone_Like_You"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Someone_You_Loved"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Something&apos;s_Got_A_Hold_On_Me_-_Burlesque_Original_Motion_Picture_Soundtrack"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Something_Just_Like_This"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sorry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sorry_Not_Sorry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#South_of_the_Border_(feat._Camila_Cabello_&amp;_Cardi_B)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spark_The_Fire"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sparks"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#St_Jude"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Starboy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Starships"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Start"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Starving"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stay_The_Night_-_Featuring_Hayley_Williams_Of_Paramore"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stay_With_Me"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Steal_My_Girl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stereo_Hearts_(feat._Adam_Levine)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stitches"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Story_of_My_Life"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Strip_That_Down_(feat._Quavo)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stronger_(What_Doesn&apos;t_Kill_You)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sucker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sugar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sugar_(feat._Francesco_Yates)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Suit_&amp;_Tie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Summer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Summer_Bummer_(feat._A$AP_Rocky_&amp;_Playboi_Carti)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Summertime_Sadness_(Lana_Del_Rey_Vs._Cedric_Gervais)_-_Cedric_Gervais_Remix"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Super_Bass"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Supernova"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Supplies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sweet_Nothing_(feat._Florence_Welch)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Swish_Swish"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TKO"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Take_Back_the_Night"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Take_It_Off"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Takeaway"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Taki_Taki_(feat._Selena_Gomez,_Ozuna_&amp;_Cardi_B)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Talk_(feat._Disclosure)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Talk_Dirty_(feat._2_Chainz)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Team"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tee_Shirt_-_Soundtrack_Version"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Teenage_Dream"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Telephone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tell_Me_You_Love_Me_-_NOTD_Remix"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tequila"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#That&apos;s_What_I_Like"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Cure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Edge_Of_Glory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Feeling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Greatest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Heart_Wants_What_It_Wants"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Hills"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_One_That_Got_Away"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Time_(Dirty_Bit)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Way"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#There&apos;s_Nothing_Holdin&apos;_Me_Back"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#There_for_You"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#These_Days"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thinking_out_Loud"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#This_Is_How_We_Do"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#This_Is_What_You_Came_For"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#This_Town"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thrift_Shop_(feat._Wanz)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TiK_ToK"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Till_the_World_Ends"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Time_of_Our_Lives"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tired"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Titanium_(feat._Sia)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tonight_(I&apos;m_Fuckin&apos;_You)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tonight_Tonight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Too_Good"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Toothbrush"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Touch_(feat._Kid_Ink)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Trampoline_(with_ZAYN)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Treasure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Treat_You_Better"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#True_Colors"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Trumpets"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Truth_Hurts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Try"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Try_Sleeping_with_a_Broken_Heart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Turn_Up_the_Music"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Turning_Page"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Under_Control"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Underneath_the_Tree"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Up"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Uptown_Funk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WTF_(Where_They_From)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wait"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wake_Me_Up"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Walk_On_Water_(feat._Beyoncé)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Walks_Like_Rihanna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Want_To"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Want_to_Want_Me"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Water_Under_the_Bridge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Waves_-_Robin_Schulz_Radio_Edit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#We_Are_Here"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#We_Are_Never_Ever_Getting_Back_Together"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#We_Are_One_(Ole_Ola)_[The_Official_2014_FIFA_World_Cup_Song]"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#We_Are_Young_(feat._Janelle_Monáe)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#We_Can&apos;t_Stop"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#We_Don&apos;t_Talk_Anymore_-_DROELOE_Remix"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#We_Found_Love"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#We_Own_The_Night"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#We_R_Who_We_R"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#What&apos;s_My_Name?"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#What_About_Love"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#What_About_Us"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#What_Do_You_Mean?"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#What_Do_You_Mean?_-_Acoustic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#What_I_Need_(feat._Kehlani)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#What_Lovers_Do_(feat._SZA)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#What_Makes_You_Beautiful"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#What_the_Hell"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Whataya_Want_from_Me"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#When_We_Were_Young"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Where_Have_You_Been"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wherever_I_Go"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wide_Awake"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wiggle_(feat._Snoop_Dogg)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wild_Thoughts_(feat._Rihanna_&amp;_Bryson_Tiller)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wings"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wish_That_You_Were_Here_-_From_“Miss_Peregrine’s_Home_for_Peculiar_Children”_Original_Motion_Picture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Without_You_(feat._Usher)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wolves"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Words_as_Weapons"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Work"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Work_Bitch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Work_from_Home_(feat._Ty_Dolla_$ign)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Worth_It"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wrecking_Ball"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Written_in_the_Stars_(feat._Eric_Turner)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XO"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Yeah_3x"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Yesterday_(feat._Bebe_Rexha)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#You&apos;re_Mine_(Eternal)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#You_And_I"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#You_Da_One"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#You_Lost_Me"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Young_Girls"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Younger_Now"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Your_Love_Is_My_Drug"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Youth_(feat._Khalid)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#human"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#no_tears_left_to_cry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pop"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Acousticness"/>
+        <Class IRI="#Music"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Akustik"/>
+        <Class IRI="#Acousticness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BPM"/>
+        <Class IRI="#Music"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Berisik"/>
+        <Class IRI="#dB"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cepat"/>
+        <Class IRI="#BPM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Danceability"/>
+        <Class IRI="#Music"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Duration"/>
+        <Class IRI="#Music"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Genre"/>
+        <Class IRI="#Music"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kurang_Populer"/>
+        <Class IRI="#Popularity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lama"/>
+        <Class IRI="#Duration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lambat"/>
+        <Class IRI="#BPM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meriah"/>
+        <Class IRI="#Danceability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Popularity"/>
+        <Class IRI="#Music"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Populer"/>
+        <Class IRI="#Popularity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sebentar"/>
+        <Class IRI="#Duration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sedang"/>
+        <Class IRI="#Duration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Singer"/>
+        <Class IRI="#Album"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tenang"/>
+        <Class IRI="#dB"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tidak_Akustik"/>
+        <Class IRI="#Acousticness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tidak_Meriah"/>
+        <Class IRI="#Danceability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Title"/>
+        <Class IRI="#Album"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Year"/>
+        <Class IRI="#Album"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dB"/>
+        <Class IRI="#Music"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hiphop"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mellow"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pop"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rock"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Acousticness"/>
+        <Class IRI="#BPM"/>
+        <Class IRI="#Danceability"/>
+        <Class IRI="#Duration"/>
+        <Class IRI="#Genre"/>
+        <Class IRI="#Popularity"/>
+        <Class IRI="#dB"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Akustik"/>
+        <Class IRI="#Tidak_Akustik"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Album"/>
+        <Class IRI="#Music"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Berisik"/>
+        <Class IRI="#Tenang"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cepat"/>
+        <Class IRI="#Lambat"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Kurang_Populer"/>
+        <Class IRI="#Populer"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Lama"/>
+        <Class IRI="#Sebentar"/>
+        <Class IRI="#Sedang"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Meriah"/>
+        <Class IRI="#Tidak_Meriah"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Singer"/>
+        <Class IRI="#Title"/>
+        <Class IRI="#Year"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#mellow"/>
+        <Class IRI="#pop"/>
+        <Class IRI="#rock"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#...Ready_For_It?_-_BloodPop®_Remix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#1+1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#24K_Magic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#2U_(feat._Justin_Bieber)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#43776"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#7_Years"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#A_L_I_E_N_S"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#A_Little_Party_Never_Killed_Nobody_(All_We_Got)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#A_Sky_Full_of_Stars"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#A_Thousand_Years"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Adore_You"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Ain&apos;t_Your_Mama"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Alejandro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Alive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#All_About_That_Bass"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#All_Around_The_World_(La_La_La)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#All_I_Ask"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#All_The_Right_Moves"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#All_We_Know"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#All_of_Me"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#American_Oxygen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Anaconda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Angel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Animal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Animals"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Antisocial_(with_Travis_Scott)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Anything_Could_Happen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Anywhere"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Applause"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Atlas_-_From_“The_Hunger_Games:_Catching_Fire”_Soundtrack"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Attention"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#BO$$"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#BURNITUP!"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Baby"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Baby_Don&apos;t_Lie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Bad_At_Love"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Bad_Liar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Bad_Romance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Bang_Bang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Bang_My_Head_(feat._Sia_&amp;_Fetty_Wap)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Beautiful_Birds_(feat._Birdy)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Beautiful_People_(feat._Khalid)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Beauty_And_A_Beat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Been_You"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Behind_Your_Back"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Beneath_Your_Beautiful"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Best_Song_Ever"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Best_Thing_I_Never_Had"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Birthday"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Blah_Blah_Blah_(feat._3OH!3)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Blame"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Bloodstream"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Blow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Blow_Me_(One_Last_Kiss)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Blown"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Blurred_Lines"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Bodak_Yellow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Body_Moves"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Body_Say"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Bon_appétit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Boom_Boom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Boom_Clap_-_From_the_Motion_Picture_Das_Schicksal_ist_ein_mieser_Verräter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Booty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Born_This_Way"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Bound_To_You_-_Burlesque_Original_Motion_Picture_Soundtrack"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Boyfriend"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Brave"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Break_Free"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Break_Your_Heart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Broken_Arrows"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Burn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#CAN&apos;T_STOP_THE_FEELING!_(Original_Song_from_DreamWorks_Animation&apos;s_TROLLS)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Cake_By_The_Ocean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#California_Gurls"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Call_Me_Maybe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Call_You_Mine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Came_Here_for_Love"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Can&apos;t_Hold_Us_(feat._Ray_Dalton)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Can&apos;t_Remember_to_Forget_You_(feat._Rihanna)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Cannonball"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Capital_Letters"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Castle_Walls_(feat._Christina_Aguilera)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Celebrate_(From_the_Original_Motion_Picture_Penguins_of_Madagascar)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Chained_To_The_Rhythm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Champagne_Problems"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Chandelier"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Change"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Cheap_Thrills"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Cheers_(Drink_To_That)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Chun-Li"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Clarity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Close"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Closer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Clown"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Club_Can&apos;t_Handle_Me_(feat._David_Guetta)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Cold_(feat._Future)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Cold_Water_(feat._Justin_Bieber_&amp;_MØ)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Come_&amp;_Get_It"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Come_Get_It_Bae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Company"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Con_Calma_-_Remix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Confident"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Cool_Girl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Cooler_Than_Me_-_Single_Mix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Crazy_Kids_(feat._will.i.am)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Cross_Me_(feat._Chance_the_Rapper_&amp;_PnB_Rock)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Cruel_(feat._ZAYN)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Crying_in_the_Club"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Cut_To_The_Feeling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#DJ_Got_Us_Fallin&apos;_In_Love_(feat._Pitbull)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Dance_Again"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Dangerous"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Dangerous_Woman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Dark_Horse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Daylight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Dear_Future_Husband"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Desire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Despacito_-_Remix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Diamonds"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Die_Young"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Do_You_Wanna_Come_Over?"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Doesn&apos;t_Mean_Anything"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Dog_Days_Are_Over"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Domino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Don&apos;t"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Don&apos;t_Be_A_Fool"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Don&apos;t_Be_so_Hard_on_Yourself"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Don&apos;t_Call_Me_Up"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Don&apos;t_Let_Me_Down"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Don&apos;t_Stop_the_Party_(feat._TJR)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Don&apos;t_You_Worry_Child_-_Radio_Edit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Downtown_(feat._Melle_Mel,_Grandmaster_Caz,_Kool_Moe_Dee_&amp;_Eric_Nally)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Drip_(feat._Migos)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Drunk_in_Love"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Dusk_Till_Dawn_-_Radio_Edit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Dynamite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#E.T."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Earned_It_(Fifty_Shades_Of_Grey)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Easy_Love"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Eenie_Meenie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Elastic_Heart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Electric_Love"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Electricity_(with_Dua_Lipa)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Empire_State_of_Mind_(Part_II)_Broken_Down"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#End_Game"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Everybody_Talks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Familiar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Fancy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Feel_The_Light_-_From_The_Home_Soundtrack"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Feel_This_Moment_(feat._Christina_Aguilera)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Ferrari"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Filthy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Final_Song"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Finally_Found_You"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Find_U_Again_(feat._Camila_Cabello)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Finesse_-_Remix;_feat._Cardi_B"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Fireball_(feat._John_Ryan)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Firework"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#First_Time"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Focus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Foolish_Games"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#For_You_(With_Rita_Ora)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#FourFiveSeconds"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Freak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Free_Me"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Friends_(with_BloodPop®)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#G.U.Y."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Genie_In_a_Bottle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Get_Low_(with_Liam_Payne)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Get_Lucky_(feat._Pharrell_Williams_&amp;_Nile_Rodgers)_-_Radio_Edit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Ghosttown"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Giant_(with_Rag&apos;n&apos;Bone_Man)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Girl_On_Fire_(feat._Nicki_Minaj)_-_Inferno_Version"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Girls_(feat._Cardi_B,_Bebe_Rexha_&amp;_Charli_XCX)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Girls_Like_You_(feat._Cardi_B)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Give_It_2_U"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Give_Me_Everything"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Glad_You_Came"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Good_Life"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Good_Time"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Good_as_Hell_(feat._Ariana_Grande)_-_Remix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Gorilla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Greenlight_(feat._Flo_Rida_&amp;_LunchMoney_Lewis)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Grenade"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Hall_of_Fame"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Hands_To_Myself"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Happier"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Happy_-_From_Despicable_Me_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Hard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Havana_(feat._Young_Thug)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Heart_Attack"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Heartbeat_Song"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Heartbreaker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Hello"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Here"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Heroes_(we_could_be)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Hey,_Soul_Sister"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Hey_Brother"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Hey_Mama_(feat._Nicki_Minaj,_Bebe_Rexha_&amp;_Afrojack)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Higher"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Higher_Love"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Him_&amp;_I_(with_Halsey)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Hold_It_Against_Me"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Hold_On,_We&apos;re_Going_Home"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#How_Deep_Is_Your_Love"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#How_Do_You_Sleep?"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#How_Far_I&apos;ll_Go_-_From_Moana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#How_Ya_Doin&apos;?_(feat._Missy_Elliott)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Hurts"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#I&apos;ll_Show_You"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#I&apos;m_Into_You"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#I&apos;m_Not_The_Only_One"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#I&apos;m_the_One_(feat._Justin_Bieber,_Quavo,_Chance_the_Rapper_&amp;_Lil_Wayne)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#IDGAF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#I_Don&apos;t_Care_(with_Justin_Bieber)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#I_Don’t_Wanna_Live_Forever_(Fifty_Shades_Darker)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#I_Feel_It_Coming"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#I_Got_You"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#I_Knew_You_Were_Trouble."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#I_Know_What_You_Did_Last_Summer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#I_Like_It"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#I_Lived"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#I_Love_It_(feat._Charli_XCX)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#I_Luh_Ya_Papi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#I_Really_Like_You"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#I_Took_A_Pill_In_Ibiza_-_Seeb_Remix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#I_Wanna_Go"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#I_Want_You_To_Know"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#If_I_Had_You"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#If_I_Lose_Myself_-_Alesso_vs_OneRepublic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Imma_Be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Impossible"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#In_My_Blood"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#In_the_Name_of_Love"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Influence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#International_Love"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Into_You"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Invading_My_Mind"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Invitation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#It&apos;s_On_Again_-_Main_Soundtrack"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#It_Ain&apos;t_Me_(with_Selena_Gomez)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#It_Will_Rain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Jar_of_Hearts"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Jealous_-_Remix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Judas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Just_Can’t_Get_Enough"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Just_Give_Me_a_Reason_(feat._Nate_Ruess)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Just_Like_Fire_(From_the_Original_Motion_Picture_Alice_Through_The_Looking_Glass)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Just_the_Way_You_Are"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Keeping_Your_Head_Up"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Kill_Em_With_Kindness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Kills_You_Slowly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Kiss_You"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Kissing_Strangers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Kissing_Strangers_-_Remix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#L.A.LOVE_(la_la)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#LIKE_I_WOULD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#La_La_La_(Brasil_2014)_(feat._Carlinhos_Brown)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Last_Friday_Night_(T.G.I.F.)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Latch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Lay_It_All_on_Me"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Legendary_Lovers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Lemon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Let_Her_Go"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Let_It_Go_-_From_Frozen_/_Single_Version"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Let_Me"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Let_Me_Be_Your_Lover"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Let_Me_Go_(with_Alesso,_Florida_Georgia_Line_&amp;_watt)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Let_Me_Love_You"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Let_Me_Love_You_(Until_You_Learn_To_Love_Yourself)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Light_It_Up_(feat._Nyla_&amp;_Fuse_ODG)_[Remix]"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Lights_-_Single_Version"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Like_A_G6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Like_I&apos;m_Gonna_Lose_You_(feat._John_Legend)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Lips_Are_Movin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Little_Lies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Live_It_Up"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Living_For_Love"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Loca"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Locked_Out_of_Heaven"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Look_What_You_Made_Me_Do"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Lose_You_To_Love_Me"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Lose_Yourself_to_Dance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Love"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Love_Incredible_(feat._Camila_Cabello)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Love_Me_Again"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Love_Me_Harder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Love_Me_Like_You"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Love_Me_Like_You_Do_-_From_Fifty_Shades_Of_Grey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Love_Never_Felt_So_Good"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Love_On_The_Brain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Love_On_Top"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Love_Runs_Out"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Love_Somebody"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Love_The_Way_You_Lie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Love_You_Like_A_Love_Song"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Love_Yourself"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Lust_for_Life_(with_The_Weeknd)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#MOVE_TO_MIAMI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Made_In_The_USA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Make_Me..._(feat._G-Eazy)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Make_Me_Like_You"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Malibu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Mama"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Maps"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Mark_My_Words"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Marry_The_Night"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Marry_You"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Me,_Myself_&amp;_I"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Me_Too"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Meet_Me_Halfway"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Memories"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Mercy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Messin&apos;_Around"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Mi_Gente_(feat._Beyoncé)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Million_Reasons"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Million_Years_Ago"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Mirrors_-_Radio_Edit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Misery"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Miss_You_(with_Major_Lazer_&amp;_Tory_Lanez)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Mmm_Yeah_(feat._Pitbull)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Moment_4_Life_-_Album_Version_(Edited)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Monster"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Move"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Moves_Like_Jagger_-_Studio_Recording_From_The_Voice_Performance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Mr._Put_It_Down"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Muny_-_Album_Version_(Edited)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#My_First_Kiss_-_feat._Ke$ha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#My_House"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#My_My_My!"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#My_Way"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#NO"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Naturally"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Needed_Me"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Nervous"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Never_Be_the_Same_-_Radio_Edit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Never_Forget_You"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#New_Rules"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Next_To_Me"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Night_Changes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#No_Brainer_(feat._Justin_Bieber,_Chance_the_Rapper_&amp;_Quavo)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#No_Guidance_(feat._Drake)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#No_Vacancy_(with_Sebastián_Yatra)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Not_About_Angels"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Not_Myself_Tonight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Not_a_Bad_Thing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Nothing_Breaks_Like_a_Heart_(feat._Miley_Cyrus)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#OK_-_Spotify_Version"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#OMG_(feat._will.i.am)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#On_My_Mind"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#On_The_Floor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#One_Call_Away_(feat._Tyga)_-_Remix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#One_Kiss_(with_Dua_Lipa)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#One_More_Night"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Only_Girl_(In_The_World)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Only_Human"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Only_Love_Can_Hurt_Like_This"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Ooh_La_La_(from_The_Smurfs_2)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Out_Of_The_Woods"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Outta_Nowhere_(feat._Danny_Mercer)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Overdose"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#PILLOWTALK"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Papi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Paradise"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Paris"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Part_Of_Me"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Partition"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Party_Rock_Anthem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Payphone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#People_Like_Us"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Pep_Rally"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Perfect"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Perfect_Duet_(Ed_Sheeran_&amp;_Beyoncé)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Perfect_Illusion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Picky_-_Remix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Play_Hard_(feat._Ne-Yo_&amp;_Akon)_-_New_Edit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Please_Don&apos;t_Go"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Pom_Poms"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Pompeii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Prayer_in_C_-_Robin_Schulz_Radio_Edit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Praying"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Price_Tag"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Problem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Raise_Your_Glass"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Rather_Be_(feat._Jess_Glynne)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Reality_(feat._Janieck_Devy)_-_Radio_Edit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Reality_-_Radio_Edit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Really_Don&apos;t_Care"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Reggaetón_Lento_(Remix)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Remember_I_Told_You"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Rich_Boy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Rich_Love_(with_Seeb)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Right_Now_-_Dyro_Radio_Edit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Rise"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Roar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Rock_N_Roll"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Rock_That_Body"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Rockabye_(feat._Sean_Paul_&amp;_Anne-Marie)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Rolling_in_the_Deep"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Roses"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Rude"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Run_Away_With_Me"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Run_Run_Run"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Run_the_World_(Girls)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Runnin_(Lose_It_All)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#S&amp;M_Remix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Same_Old_Love"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Say_Something"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Scars_To_Your_Beautiful"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Secrets"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#See_You_Again_(feat._Charlie_Puth)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Send_My_Love_(To_Your_New_Lover)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Set_Fire_to_the_Rain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Sexy_And_I_Know_It"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Sexy_Bitch_(feat._Akon)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Señorita"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Shake_It_Off"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Shallow_-_Radio_Edit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Shape_of_You"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#She_Looks_So_Perfect"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Sheezus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Shot_Me_Down_(feat._Skylar_Grey)_-_Radio_Edit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Shout_Out_to_My_Ex"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Sick_Boy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Side_To_Side"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Sign_of_the_Times"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Silence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Sing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Slide_(feat._Frank_Ocean_&amp;_Migos)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Slow_Hands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Some_Nights"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Someone_Like_You"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Someone_You_Loved"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Something&apos;s_Got_A_Hold_On_Me_-_Burlesque_Original_Motion_Picture_Soundtrack"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Something_Just_Like_This"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Sorry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Sorry_Not_Sorry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#South_of_the_Border_(feat._Camila_Cabello_&amp;_Cardi_B)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Spark_The_Fire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Sparks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#St_Jude"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Starboy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Starships"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Start"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Starving"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Stay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Stay_The_Night_-_Featuring_Hayley_Williams_Of_Paramore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Stay_With_Me"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Steal_My_Girl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Stereo_Hearts_(feat._Adam_Levine)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Stitches"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Story_of_My_Life"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Strip_That_Down_(feat._Quavo)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Stronger_(What_Doesn&apos;t_Kill_You)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Sucker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Sugar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Sugar_(feat._Francesco_Yates)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Suit_&amp;_Tie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Summer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Summer_Bummer_(feat._A$AP_Rocky_&amp;_Playboi_Carti)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Summertime_Sadness_(Lana_Del_Rey_Vs._Cedric_Gervais)_-_Cedric_Gervais_Remix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Super_Bass"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Supernova"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Supplies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Sweet_Nothing_(feat._Florence_Welch)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Swish_Swish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#TKO"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Take_Back_the_Night"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Take_It_Off"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Takeaway"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Taki_Taki_(feat._Selena_Gomez,_Ozuna_&amp;_Cardi_B)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Talk_(feat._Disclosure)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Talk_Dirty_(feat._2_Chainz)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Team"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Tee_Shirt_-_Soundtrack_Version"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Teenage_Dream"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Telephone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Tell_Me_You_Love_Me_-_NOTD_Remix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Tequila"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#That&apos;s_What_I_Like"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#The_Cure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#The_Edge_Of_Glory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#The_Feeling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#The_Greatest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#The_Heart_Wants_What_It_Wants"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#The_Hills"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#The_One_That_Got_Away"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#The_Time_(Dirty_Bit)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#The_Way"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#There&apos;s_Nothing_Holdin&apos;_Me_Back"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#There_for_You"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#These_Days"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Thinking_out_Loud"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#This_Is_How_We_Do"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#This_Is_What_You_Came_For"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#This_Town"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Thrift_Shop_(feat._Wanz)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#TiK_ToK"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Till_the_World_Ends"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Time_of_Our_Lives"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Tired"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Titanium_(feat._Sia)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Tonight_(I&apos;m_Fuckin&apos;_You)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Tonight_Tonight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Too_Good"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Toothbrush"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Touch_(feat._Kid_Ink)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Trampoline_(with_ZAYN)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Treasure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Treat_You_Better"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#True_Colors"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Trumpets"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Truth_Hurts"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Try"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Try_Sleeping_with_a_Broken_Heart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Turn_Up_the_Music"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Turning_Page"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Under_Control"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Underneath_the_Tree"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Up"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Uptown_Funk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#WTF_(Where_They_From)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Wait"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Wake_Me_Up"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Walk_On_Water_(feat._Beyoncé)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Walks_Like_Rihanna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Want_To"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Want_to_Want_Me"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Water_Under_the_Bridge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Waves_-_Robin_Schulz_Radio_Edit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#We_Are_Here"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#We_Are_Never_Ever_Getting_Back_Together"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#We_Are_One_(Ole_Ola)_[The_Official_2014_FIFA_World_Cup_Song]"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#We_Are_Young_(feat._Janelle_Monáe)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#We_Can&apos;t_Stop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#We_Don&apos;t_Talk_Anymore_-_DROELOE_Remix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#We_Found_Love"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#We_Own_The_Night"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#We_R_Who_We_R"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#What&apos;s_My_Name?"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#What_About_Love"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#What_About_Us"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#What_Do_You_Mean?"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#What_Do_You_Mean?_-_Acoustic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#What_I_Need_(feat._Kehlani)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#What_Lovers_Do_(feat._SZA)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#What_Makes_You_Beautiful"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#What_the_Hell"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Whataya_Want_from_Me"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#When_We_Were_Young"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Where_Have_You_Been"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Wherever_I_Go"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Wide_Awake"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Wiggle_(feat._Snoop_Dogg)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Wild_Thoughts_(feat._Rihanna_&amp;_Bryson_Tiller)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Wings"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Wish_That_You_Were_Here_-_From_“Miss_Peregrine’s_Home_for_Peculiar_Children”_Original_Motion_Picture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Without_You_(feat._Usher)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Wolves"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Words_as_Weapons"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Work"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Work_Bitch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Work_from_Home_(feat._Ty_Dolla_$ign)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Worth_It"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Wrecking_Ball"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Written_in_the_Stars_(feat._Eric_Turner)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#XO"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Yeah_3x"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Yesterday_(feat._Bebe_Rexha)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#You&apos;re_Mine_(Eternal)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#You_And_I"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#You_Da_One"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#You_Lost_Me"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Young_Girls"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Younger_Now"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Your_Love_Is_My_Drug"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Youth_(feat._Khalid)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#human"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#no_tears_left_to_cry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#pop"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#43776"/>
+        <NamedIndividual IRI="#pop"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPopuler"/>
+        <NamedIndividual IRI="#7_Years"/>
+        <NamedIndividual IRI="#How_Deep_Is_Your_Love"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#43776"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">pop</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#7_Years"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">danish_pop</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#A_L_I_E_N_S"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">pop</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isPopuler"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#performer"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <DataPropertyRange>
+        <DataProperty IRI="#Year"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasGenre"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
