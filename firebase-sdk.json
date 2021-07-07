@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "musik-chatbot",
+  "private_key_id": "0f82a3efe022beaf25fb5dcd531ca2977d52afa7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDfjLJL60pAvfG/\nV1dvz/Y2z9eaNb/G0uqle9pHm4YGGnd9boP0TGHUL3ZmRzQ7CV9QQ5tLeOr8AVzp\nHutliRQoO0eRHZHquhTOty3qfABUpdZOTUXqu447INY3Leyj0CP0TAA/XLNA+azF\nQHC7LVSraTBf6v9OchqASuyqDrHIqY+n2HTvx2HT6QbM5OpC2zJ6mADfk7t4FVHJ\nfN6/IxlOogLwz6ppf7KK5630ysVTsbNt1YPXlcoFIl/IyNO173YEvfnO04+9sV+k\nh6UseC6plJ+vYzXL8d46vBexhd2uRq69I2dnNjm7eGrItkdqyUvkbu4OYB87HMNm\nWiRtCQVVAgMBAAECggEAD39KM/OjgeH5EpXsOJLe43VcobLksNSZ0i+IFgs8ywsG\nKhKhgKvT41kH+PaqMwaHDkIlj6GaDq7MgVe0o2URmelkIHX/kdllDGCMBROkFToq\n5WI7fNaUOVqhJxGetEt/VpX3NW1IevJkDQeW2Q7/LePcp+WbXdWQq0Cmb/KVVg7z\n+mg3PwN3sLn+y+wtFEsn0NrYYYxX2nsIgRdJ8W5DG0qmITYkb4fKCgAQq2PBTOMh\nNkV0hmzLpXwKOZnNTD3kGiYymhIEKDiRAFIY9adXCqSd3UmyyImqpoCKztBo63F8\nvuB8/Tl+xOLRDroieY2JCfQ8WMoi0k28oBmsQ/t0aQKBgQD00D5hykch12MBG4ah\nLFjf0nPvV58eZ8/yvjt/ewuGK8V7xGNqsF/zOUtmXAlFYZ0yj3/K4XM7sElG2KcJ\nndFDlZIoK0C5ZD5znsJJJ7G6TrCDu9k0e86EbRBxfpN8Ma8o01dPg90YnjDiZBpb\nvhhaK75UgRQ8VaByD4W/nUmOPQKBgQDpw7bjR9UnZNquy7nvL/413NvcNE8yiOcl\nMkmcayvmYuZddMkhExV8+08ElpOfUrSjDHlRO5faXtbU6zpu2fEvLY1JH1kRh2bS\nrC/stFYr5LGQsbxnX3emXrKaz5SBz2ZHausFfiY0sAuYs/3a31xnauMKuWAGM5DN\n0dGuvpsc+QKBgQCzWUwaQCJUfIKfcRb0RJTnhDpDAaIkmFETuKHGBtKufKq0vW9H\n3eatPTAr0QlJtvV+8PniG8Bb3g4QxO+6b8+6/3yPyQAl0XafJZOYHGhr4PIX0CqT\n9I+bHHuLafuKZKu58Ppp2mTDgEC32jYlN+KHTLynE9lLSj+8z/pgIk6c0QKBgQDK\n/T153S2WGLjgol3h+q3nfdKZQ/8lpcX6AdHz9whW9biOnNPuWZEGR3/VPyAPcJUV\nJMbQKExzvnkUyPKjwbLywb53KbaBRy+dbxHqnKpbUSpzuDMfHMJcgMzdK7YMhtmM\n2KYeze1FQT3Aq0Ob5OtrjmB7Nn/QwsRSRYmsES3GmQKBgQCjYUVbWbykGYYtkiAY\n5IJzIgC7FLe+bTLpoNPu1ROnWUPl344kPg9Xca3CArLguku7OTgIQDB17epFVk2w\n1efT45tf0bw2/U5aN4NmZXwK8xdZckbE6zZU20pnTvCDI7hhwOE1FR9Wc2fqMFrs\npUjRdj9ZeFXAtssLaS2JtQYBwQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-zz9ns@musik-chatbot.iam.gserviceaccount.com",
+  "client_id": "106887676403241519996",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-zz9ns%40musik-chatbot.iam.gserviceaccount.com"
+}
