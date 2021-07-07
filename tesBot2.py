@@ -2,13 +2,56 @@ import logging
 
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update,KeyboardButton, ReplyKeyboardMarkup, ReplyKeyboardRemove
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters,CallbackQueryHandler, ConversationHandler, CallbackContext
-
 from owlready2 import *
 import numpy as np
-
+import firebase_admin
+from firebase_admin import credentials
+from firebase_admin import db
 
 onto = get_ontology("file://music.owl").load()
 onto = get_ontology("file://music-N.owl").load()
+
+cred = credentials.Certificate('firebase-sdk.json')
+firebase_admin.initialize_app(cred, {
+	'databaseURL':'https://musik-chatbot-default-rtdb.asia-southeast1.firebasedatabase.app/'
+	})
+
+
+def cek(x):
+    y = db.reference('/chatbot2/{}'.format(x)).get()
+    if y == None:
+        return True
+    else:
+        return False
+
+def newUsr(x):
+    if cek(x):
+        ref = db.reference('/chatbot2/')
+        ref.child(x).set({
+                "model":""            
+        })
+    else:
+        ref = db.reference('/chatbot2/{}'.format(x))
+        ref.set({
+            "model":""
+        })
+
+def add(data,id):
+    dat =db.reference('/chatbot2/{}/model'.format(id)).get()
+    if dat=="":
+        dat =  dat + data
+    else:
+        dat = dat + "," + data
+    ref = db.reference('/chatbot2/{}/'.format(id))
+    ref.update({
+        "model" : dat
+    })
+
+def dModel(id):
+    dat = db.reference('/chatbot2/{}/model'.format(id)).get()
+    dat = str(dat)
+    data = dat.split(",")
+    return data
 
 def searchDurasi(kata1,kata2):
     for i in onto.classes():
@@ -161,23 +204,17 @@ def reksis(usmod):
         
         if ar in list(indMenari):
             util = util + 1
-            
         if ar in list(indPopular):
             util = util + 1
-            
         if ar in list(indAkustik):
             util = util+ 1
-            
         if(len(usmod) > 5):
             if ar in list(indLoud):
                 util += 1
-                
             if ar in list(indDurasi):
                 util += 1
-                
             if ar in list(indValence):
                 util += 1
-              
         temp = [util]
         arr[i] = np.append(ar,temp)
         i = i+1
@@ -197,7 +234,7 @@ def reksis(usmod):
         atr = searchAtr(x)
         sum = sum + 1
         kat = kat + str(sum)+". "
-        for x in ar:                
+        for x in ar:
             if i != 1:
                 temp = str(x).replace("_"," ")
                 temp = temp.replace("music.","")
@@ -205,6 +242,7 @@ def reksis(usmod):
             i = i+1 
             kat = kat+"\n"
     return kat
+
 
 
 i = 0
@@ -218,7 +256,7 @@ logger = logging.getLogger(__name__)
 
 # Callback data
 key = [""]
-model = []
+
 FIRST, SECOND, THIRD, FOURTH, FIFTH,SIXTH,SEVENTH,EIGHT,NINTH = range(9)
 def start(update, context):
     """Send a message when the command /start is issued."""
@@ -233,6 +271,8 @@ def start(update, context):
  
 def recom(update: Update, _: CallbackContext) -> int:
   user = update.message.from_user
+  id = str(user.id)
+  newUsr(id)
   logger.info("User %s started the conversation.", user.first_name)
     # Build InlineKeyboard where each button has a displayed text
     # and a string as callback_data
@@ -279,7 +319,7 @@ def year(update: Update, _: CallbackContext) -> int:
     query = update.callback_query
     query.answer()
     data  = query.data
-    model.append(data)
+    add(data,str(query.from_user.id))
     keyboard = [
         [
             InlineKeyboardButton("2010-2013", callback_data="awal"),
@@ -298,7 +338,7 @@ def dance(update: Update, _: CallbackContext) -> int:
     query = update.callback_query
     query.answer()
     data  = query.data
-    model.append(data)
+    add(data,str(query.from_user.id))
     keyboard = [
         [
             InlineKeyboardButton("Menari ", callback_data="Menari"),
@@ -316,7 +356,7 @@ def popular(update: Update, _: CallbackContext) -> int:
     query = update.callback_query
     query.answer()
     data  = query.data
-    model.append(data)
+    add(data,str(query.from_user.id))
     keyboard = [
         [
             InlineKeyboardButton("Lagu Popular", callback_data="Terkenal"),
@@ -335,7 +375,7 @@ def akustik(update: Update, _: CallbackContext) -> int:
     query = update.callback_query
     query.answer()
     data  = query.data
-    model.append(data)
+    add(data,str(query.from_user.id))
     keyboard = [
         [
             InlineKeyboardButton("Lagu Akustik", callback_data="musikAkustik"),
@@ -371,7 +411,7 @@ def durasi(update: Update, _: CallbackContext) -> int:
     query = update.callback_query
     query.answer()
     data  = query.data
-    model.append(data)
+    add(data,str(query.from_user.id))
     keyboard = [
         [
             InlineKeyboardButton("Lama", callback_data="durasiLama"),
@@ -390,7 +430,7 @@ def mood(update: Update, _: CallbackContext) -> int:
     query = update.callback_query
     query.answer()
     data  = query.data
-    model.append(data)
+    add(data,str(query.from_user.id))
     keyboard = [
         [
             InlineKeyboardButton("Ya", callback_data="moodPositive"),
@@ -411,11 +451,9 @@ def end(update: Update, _: CallbackContext) -> int:
     query = update.callback_query
     query.answer()
     data  = query.data
-    model.append(data)
-    hasil = reksis(model)
-    us = ""
-    for i in model:
-        us += str(i) + " - \n"
+    add(data,str(query.from_user.id))
+    hasil = reksis(dModel(query.from_user.id))
+    
     keyboard = [
         [
             InlineKeyboardButton("Sesuai", callback_data="ya"),
@@ -423,7 +461,7 @@ def end(update: Update, _: CallbackContext) -> int:
         ]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
-    query.edit_message_text(text="Terima kasih atas perhatian Anda, ini adalah rekomendasi musik Anda : \n\n {}   \n\nApakah rekomendasi lagu diatas sudah sesuai dengan keinginan anda?".format(hasil),reply_markup=reply_markup)
+    query.edit_message_text(text="Terima kasih atas perhatian Anda, ini adalah rekomendasi musik Anda : \n\n {} , \n\nApakah rekomendasi lagu diatas sudah sesuai dengan keinginan anda?".format(hasil),reply_markup=reply_markup)
     return SIXTH
 
 def end2(update: Update, _: CallbackContext) -> int:
@@ -432,12 +470,10 @@ def end2(update: Update, _: CallbackContext) -> int:
     query = update.callback_query
     query.answer()
     data  = query.data
-    model.append(data)
-    hasil = reksis(model)
-    us = ""
-    for i in model:
-        us += str(i) + " - "
-    query.edit_message_text(text="Terima kasih atas perhatian Anda, ini adalah rekomendasi musik Anda : \n {}  \nSampai jumpa lagi!".format(hasil))
+    add(data,str(query.from_user.id))
+    hasil = reksis(dModel(query.from_user.id))
+    
+    query.edit_message_text(text="Terima kasih atas perhatian Anda, ini adalah rekomendasi musik Anda : \n {} \n\nSampai jumpa lagi!".format(hasil))
     return ConversationHandler.END
 
 
@@ -446,11 +482,9 @@ def endSection(update: Update, _: CallbackContext) -> int:
     ConversationHandler that the conversation is over"""
     query = update.callback_query
     query.answer()
-    hasil = reksis(model)
-    us = ""
-    for i in model:
-        us += str(i) + " - "
-    query.edit_message_text(text="Terima kasih atas perhatian Anda, ini adalah rekomendasi musik Anda : \n {}  \nSampai jumpa lagi!".format(hasil))
+    hasil = reksis(dModel(query.from_user.id))
+    
+    query.edit_message_text(text="Terima kasih atas perhatian Anda, ini adalah rekomendasi musik Anda : \n {}\n\nSampai jumpa lagi!".format(hasil))
     return ConversationHandler.END
 
 def error(update, context):
@@ -468,7 +502,7 @@ def main():
     # Create the Updater and pass it your bot's token.
     # Make sure to set use_context=True to use the new context based callbacks
     # Post version 12 this will no longer be necessary
-    updater = Updater("1893557965:AAGTWrHO6B37aEMHdpQSwqeotntggvmHdCk", use_context=True)
+    updater = Updater("1739959353:AAHYg-IA7EMns-p05Eo7WdxXayEHlEhwcOU", use_context=True)
  
     # Get the dispatcher to register handlers
     dp = updater.dispatcher
@@ -556,6 +590,7 @@ def main():
     # start_polling() is non-blocking and will stop the bot gracefully.
     updater.idle()
 
+ 
  
 if __name__ == '__main__':
     main()
