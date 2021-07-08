@@ -290,7 +290,7 @@ def recom(update: Update, _: CallbackContext) -> int:
             InlineKeyboardButton("Rock", callback_data="rock"),
         ]
     ]
-  text = "1. Baik selamat datang di dialog ini, Sebelum itu saya akan menanyakan beberapa pertanyaan seputar yang akan menjadi dasar dalam merekomendasikan musik tentunya :) , Harap untuk mennjawab setiap pertanyaan hingga selesai. Baik untuk yang pertama GENRE musik apa yang anda inginkan? \n\nDeskripsi Singkat : \n\n1. Pop adalah genre musik yang sederhana dan mengikuti perkembangan zaman \n\n2. Rock adalah musik dengan tempo yang cepat dan musik yang sedikit lebih keras \n\n3. Hip Hop merupakan subgenre R&B. dimana melibatkan teknik rap \n\n4. Electronic merupakan genre musik yang hanya menggunakan alat musik elektronik dan dibuat dengan cara elektromekanis (musik elektroakustik) \n\n5. Boy Band merupakan suatu grup vokal yang terdiri dari beberapa remaja pria dan menyanyikan lagu tentang cinta \n\n6. R&B adalah genre musik tradisional masyarakat Afro-Amerika, yang menggabungkan jazz, gospel, dan blues"
+  text = "1. Baik selamat datang di dialog ini, Sebelum itu saya akan menanyakan beberapa pertanyaan seputar yang akan menjadi dasar dalam merekomendasikan musik tentunya :) , (Harap untuk mennjawab setiap pertanyaan hingga selesai). Baik untuk yang pertama GENRE musik apa yang anda inginkan? \n\nDeskripsi Singkat : \n\n1. Pop adalah genre musik yang sederhana dan mengikuti perkembangan zaman \n\n2. Rock adalah musik dengan tempo yang cepat dan musik yang sedikit lebih keras \n\n3. Hip Hop merupakan subgenre R&B. dimana melibatkan teknik rap \n\n4. Electronic merupakan genre musik yang hanya menggunakan alat musik elektronik dan dibuat dengan cara elektromekanis (musik elektroakustik) \n\n5. Boy Band merupakan suatu grup vokal yang terdiri dari beberapa remaja pria dan menyanyikan lagu tentang cinta \n\n6. R&B adalah genre musik tradisional masyarakat Afro-Amerika, yang menggabungkan jazz, gospel, dan blues"
   reply_markup = InlineKeyboardMarkup(keyboard)
   # Send message with text and appended InlineKeyboard
   update.message.reply_text(text, reply_markup=reply_markup)
@@ -384,7 +384,7 @@ def akustik(update: Update, _: CallbackContext) -> int:
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
     query.edit_message_text(
-        text="5. Untuk lagunya sendiri apakah anda ingin lagu yang akustik atau tidak? (Setelah menjawab pertanyaan ini harap tunggu sekitar 10 detik hingga hasil rekomendasi muncul)", reply_markup=reply_markup
+        text="5. Untuk lagunya sendiri apakah anda ingin lagu yang akustik atau tidak? \n\n(Setelah menjawab pertanyaan ini harap tunggu sekitar 10 detik hingga hasil rekomendasi muncul)", reply_markup=reply_markup
     )
     return FIFTH
 
@@ -439,7 +439,7 @@ def mood(update: Update, _: CallbackContext) -> int:
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
     query.edit_message_text(
-        text="8. Untuk lagunya apakah anda ingin lagu yang membawa mood positif atau tidak? (Setelah menjawab pertanyaan ini harap tunggu sekitar 10 detik hingga hasil rekomendasi muncul)", reply_markup=reply_markup
+        text="8. Untuk lagunya apakah anda ingin lagu yang membawa mood positif atau tidak? \n\n(Setelah menjawab pertanyaan ini harap tunggu sekitar 10 detik hingga hasil rekomendasi muncul)", reply_markup=reply_markup
     )
     return NINTH
 
