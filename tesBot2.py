@@ -329,7 +329,7 @@ def year(update: Update, _: CallbackContext) -> int:
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
     query.edit_message_text(
-        text="2. Baik untuk pertanyaan selanjutnya , untuk tahun lagunya mau yang kapan ni ?  ", reply_markup=reply_markup
+        text="2. Baik untuk pertanyaan selanjutnya , untuk tahun lagunya mau yang kapan nih ?  ", reply_markup=reply_markup
     )
     return SECOND
 
@@ -384,7 +384,7 @@ def akustik(update: Update, _: CallbackContext) -> int:
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
     query.edit_message_text(
-        text="5. Untuk lagunya sendiri apakah anda ingin lagu yang akustik atau tidak?", reply_markup=reply_markup
+        text="5. Untuk lagunya sendiri apakah anda ingin lagu yang akustik atau tidak? (Setelah menjawab pertanyaan ini harap tunggu sekitar 10 detik hingga hasil rekomendasi muncul)", reply_markup=reply_markup
     )
     return FIFTH
 
@@ -439,7 +439,7 @@ def mood(update: Update, _: CallbackContext) -> int:
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
     query.edit_message_text(
-        text="8. Untuk lagunya apakah anda ingin lagu yang membawa mood positif atau tidak?", reply_markup=reply_markup
+        text="8. Untuk lagunya apakah anda ingin lagu yang membawa mood positif atau tidak? (Setelah menjawab pertanyaan ini harap tunggu sekitar 10 detik hingga hasil rekomendasi muncul)", reply_markup=reply_markup
     )
     return NINTH
 
